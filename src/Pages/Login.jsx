@@ -1,4 +1,5 @@
 import React from 'react';
+import { Placeholder } from 'react-bootstrap';
 
 const Login = () => {
     return (
@@ -10,21 +11,19 @@ const Login = () => {
 		<table>
   <tr>
     <td>UseName:</td>
-    <td><input type="text"/></td>
+    <td><input type="text" placeholder='Enter User Name'/></td>
   </tr>
   <tr>
     <td>Password:</td>
-    <td><input type="password"/></td>
+    <td><input type="password" placeholder='Enter Password'/></td>
   </tr>
 </table>
 <br/>
 		<tr><button>Submit</button></tr><br/>
 		<a href="regi.html">New Registration</a>
 	</div>
-	</div></>
-  
-      
-      
+	</div>
+  </>    
     );
 }
 

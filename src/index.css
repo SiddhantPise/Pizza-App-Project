@@ -41,16 +41,20 @@ justify-content: center;
     margin-top:50px;
     box-shadow: 2px 2px 4px black;
     padding-top:20px;
+    padding-left: 20px;
     color:white;
-    height: 230px;
-    width: 300px;
+    height: 245px;
+    width: 350px;
     border-radius: 20px;
-    background-image: url('https://th.bing.com/th/id/R.84af91cdc7e97b7ee7839d449b233b3f?rik=UARWOEjfIDEWaw&riu=http%3a%2f%2fimages.all-free-download.com%2fimages%2fgraphiclarge%2fsky_plane_516385.jpg&ehk=KtsoG944yrgP7OcVyZiWKNIq80AW%2bMUsWVcS4Y%2bE9rk%3d&risl=&pid=ImgRaw&r=0&sres=1&sresct=1');
+    background-image: url('https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS-Q_p8QNi9PgekwfTcMPxxnv9QPo9Wfg11Sw&usqp=CAU');
 }
 a{
     color:white;
 }
 a:hover {
-color:red;
+color:rgb(255, 42, 0);
+border: 5px solid rgb(25, 199, 9);
+border-radius: 20px;
+box-shadow: 2px 2px 4px black;
 }
 
